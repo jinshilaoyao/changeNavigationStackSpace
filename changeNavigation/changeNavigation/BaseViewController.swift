@@ -39,6 +39,7 @@ class BaseViewController: UIViewController {
         // Do any additional setup after loading the view.
         view.addSubview(btn)
         view.addSubview(textfield)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -57,7 +58,7 @@ class BaseViewController: UIViewController {
         super.viewWillDisappear(animated)
         let path = #file
         print("\(#function) in \(path)")
-        Cache.setValue(<#T##value: AnyObject?##AnyObject?#>, forKey: <#T##String#>)
+//        Cache.setValue(<#T##value: AnyObject?##AnyObject?#>, forKey: <#T##String#>)
     }
 
 }
